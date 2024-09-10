@@ -14,7 +14,7 @@ class GptHandler:
     
     def __init__(self):
       self.client = OpenAI( #Al tener el key aca se puede usar este proyecto sin usar una propia, aunque lo pago yo!!!
-        api_key=""
+        #api_key= 
         )
     def setFunctions(self, f1, f2):
        self.x = f1
