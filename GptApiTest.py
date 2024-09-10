@@ -1,4 +1,4 @@
-#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
+
 import os
 from openai import OpenAI
 import asyncio
@@ -14,7 +14,7 @@ class GptHandler:
     
     def __init__(self):
       self.client = OpenAI( #Al tener el key aca se puede usar este proyecto sin usar una propia, aunque lo pago yo!!!
-        api_key="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"
+        api_key=""
         )
     def setFunctions(self, f1, f2):
        self.x = f1
